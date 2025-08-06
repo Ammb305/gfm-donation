@@ -7,10 +7,17 @@ import { useEffect, useState } from 'react';
 export default function Layout({ children, title = "Hope Foundation - Making a Difference" }) {
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+      
+      // Close mobile menu when scrolling
+      if (isMobileMenuOpen) {
+        setIsMobileMenuOpen(false);
+        document.body.style.overflow = 'unset';
+      }
       
       // Show header when scrolling up or at the top
       if (currentScrollY < lastScrollY || currentScrollY < 100) {
@@ -29,7 +36,24 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [lastScrollY]);
+  }, [lastScrollY, isMobileMenuOpen]);
+
+  const toggleMobileMenu = () => {
+    const newState = !isMobileMenuOpen;
+    setIsMobileMenuOpen(newState);
+    
+    // Prevent body scroll when menu is open
+    if (newState) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    document.body.style.overflow = 'unset';
+  };
 
   return (
     <>
@@ -47,16 +71,35 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
               <Image
                 src="/Logo.png"
                 alt="Hope Foundation Logo"
-                width={240}
+                width={255}
                 height={100}
                 priority
                 style={{ objectFit: 'contain' }}
               />
             </Link>
+            
+            {/* Desktop Navigation */}
             <ul className="nav-links">
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/#programs">Campaigns</Link></li>
+            </ul>
+
+            {/* Mobile Hamburger Menu */}
+            <div 
+              className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
+              onClick={toggleMobileMenu}
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            {/* Mobile Navigation Menu */}
+            <ul className={`nav-links mobile-menu ${isMobileMenuOpen ? 'active' : ''}`}>
+              <li><Link href="/" onClick={closeMobileMenu}>Home</Link></li>
+              <li><Link href="/about" onClick={closeMobileMenu}>About</Link></li>
+              <li><Link href="/#programs" onClick={closeMobileMenu}>Campaigns</Link></li>
             </ul>
           </nav>
         </div>
@@ -71,7 +114,7 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
           <div className="footer-content">
             <div className="footer-section">
               <h4>Hope Foundation</h4>
-              <p>Making a positive impact on communities worldwide through sustainable programs and initiatives.</p>
+              <p>In times of crisis, trust is essential. Our mission is to ensure that every dollar donated reaches those who need it most.</p>
             </div>
             <div className="footer-section">
               <h4>Quick Links</h4>
@@ -82,7 +125,7 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
             <div className="footer-section">
               <h4>Contact</h4>
               <p>Email: info@hopefoundation.org</p>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>Phone: +1 (000) 123-4567</p>
             </div>
           </div>
           <div className="footer-bottom">
