@@ -215,21 +215,7 @@ export default function About() {
             </form>
           </div>
 
-          {/* Social Links */}
-          <div className="social-links">
-            <a href="https://facebook.com/hopefoundation" target="_blank" rel="noopener noreferrer" className="social-link">
-              f
-            </a>
-            <a href="https://twitter.com/hopefoundation" target="_blank" rel="noopener noreferrer" className="social-link">
-              t
-            </a>
-            <a href="https://instagram.com/hopefoundation" target="_blank" rel="noopener noreferrer" className="social-link">
-              ig
-            </a>
-            <a href="https://linkedin.com/company/hopefoundation" target="_blank" rel="noopener noreferrer" className="social-link">
-              in
-            </a>
-          </div>
+      
 
           {/* Trusted Section */}
           <div className="trusted-section" style={{ paddingTop: '4rem' }}>

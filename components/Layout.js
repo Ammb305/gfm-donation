@@ -47,8 +47,8 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
               <Image
                 src="/Logo.png"
                 alt="Hope Foundation Logo"
-                width={185}
-                height={80}
+                width={240}
+                height={100}
                 priority
                 style={{ objectFit: 'contain' }}
               />
