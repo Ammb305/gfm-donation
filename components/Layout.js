@@ -120,7 +120,7 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
               <h4>Quick Links</h4>
               <p><Link href="/">Home</Link></p>
               <p><Link href="/about">About Us</Link></p>
-              <p><Link href="/#programs">Our Programs</Link></p>
+              <p><Link href="/#programs">Our Trusted Campaigns</Link></p>
             </div>
             <div className="footer-section">
               <h4>Contact</h4>

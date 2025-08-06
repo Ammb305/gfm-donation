@@ -141,7 +141,7 @@ export default function ProgramDetail({ program }) {
               Donate Now
             </a>
             <p style={{ marginTop: '1rem', color: '#666', marginBottom: '2rem' }}>
-              Donate safely – this campaign is verified and supported by our team. Your contribution goes directly to the communities in need.
+              Donate safely – this campaign is verified and supported by our team. What you give goes straight to those who need it
             </p>
           </div>
 
