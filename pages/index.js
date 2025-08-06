@@ -20,7 +20,7 @@ export default function Home() {
 
       <section id="programs" className="programs-section">
         <div className="container">
-          <h2 className="section-title">Our Programs</h2>
+          <h2 className="section-title">Trusted & Verified Campaigns</h2>
           <div className="programs-grid">
             {donationPrograms.map((program) => (
               <div key={program.id} className="program-card">

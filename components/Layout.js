@@ -56,7 +56,7 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
             <ul className="nav-links">
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About</Link></li>
-              <li><Link href="/#programs">Programs</Link></li>
+              <li><Link href="/#programs">Campaigns</Link></li>
             </ul>
           </nav>
         </div>
