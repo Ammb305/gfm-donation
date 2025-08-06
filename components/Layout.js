@@ -1,8 +1,36 @@
 // components/Layout.js
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function Layout({ children, title = "Hope Foundation - Making a Difference" }) {
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Show header when scrolling up or at the top
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
+        setIsHeaderVisible(true);
+      } 
+      // Hide header when scrolling down
+      else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsHeaderVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
     <>
       <Head>
@@ -12,11 +40,18 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="header">
+      <header className={`header ${!isHeaderVisible ? 'header-hidden' : ''}`}>
         <div className="container">
           <nav className="nav">
             <Link href="/" className="logo">
-              Hope Foundation
+              <Image
+                src="/Logo.png"
+                alt="Hope Foundation Logo"
+                width={185}
+                height={80}
+                priority
+                style={{ objectFit: 'contain' }}
+              />
             </Link>
             <ul className="nav-links">
               <li><Link href="/">Home</Link></li>
@@ -51,7 +86,7 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 Hope Foundation. All rights reserved.</p>
+            <p>&copy; 2025 Hope Foundation. All rights reserved.</p>
           </div>
         </div>
       </footer>

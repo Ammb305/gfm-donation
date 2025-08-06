@@ -1,5 +1,6 @@
 // pages/about.js
 import Layout from '../components/Layout';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -44,17 +45,20 @@ export default function About() {
           </div>
 
           <div className="about-card" style={{maxWidth: '800px', margin: '3rem auto'}}>
-            <h3>Our 2024 Goals</h3>
+            <h3>Who Are We</h3>
             <p>
-              This year, we aim to raise $500,000 to expand our programs and reach 25,000 more people 
-              in need. Our focus areas include:
+              "We are an independent platform committed to promoting transparency in fundraising for Gaza. In times of crisis, trust is essential. Our mission is to ensure that every dollar donated reaches those who need it most."
+
             </p>
+            <br />
+            We achieve this through:
+            <br/>
             <ul style={{textAlign: 'left', marginTop: '1rem'}}>
-              <li>Establishing 10 new clean water projects in rural Africa</li>
-              <li>Supporting 1,000 additional children through our education programs</li>
-              <li>Building 5 new healthcare clinics in underserved areas</li>
-              <li>Launching 20 sustainable energy projects</li>
-              <li>Expanding our emergency relief capacity</li>
+              
+              <li>Campaign Submission</li>
+              <li>Verification Process</li>
+              <li>Transparency Report</li>
+              <li>Continuous Monitoring</li>
             </ul>
           </div>
 
@@ -71,6 +75,24 @@ export default function About() {
             <a href="https://linkedin.com/company/hopefoundation" target="gofundme.com" rel="noopener noreferrer" className="social-link">
               in
             </a>
+          </div>
+
+          <div className="trusted-section" style={{ paddingTop: '4rem' }}>
+            <h2 className="trusted-title">Trusted by those you trust</h2>
+            <div className="trusted-image-container" style={{ maxWidth: '600px', margin: '0 auto' }}>
+              <Image
+                src="/people.png"
+                alt="Trusted by those you trust"
+                width={300}
+                height={150}
+                style={{ 
+                  width: '100%', 
+                  height: 'auto',
+                  objectFit: 'cover',
+                  borderRadius: '12px'
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>

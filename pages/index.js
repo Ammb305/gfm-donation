@@ -9,10 +9,11 @@ export default function Home() {
     <Layout>
       <section className="hero">
         <div className="container">
-          <h1>Building Hope, Changing Lives 🤲</h1>
-          <p>Join us in making a positive impact on communities worldwide through our sustainable programs and initiatives.</p>
+          <h1>Verify Before You Donate, Supporting Gaza Starts with Trust.</h1>
+          <p>Empowering donors with verified information about Gaza fundraising campaigns. 
+            We investigate, verify, and help you give with confidence.</p>
           <Link href="#programs" className="btn btn-primary btn-large">
-            Explore Programs
+            Browse Verified Campaigns
           </Link>
         </div>
       </section>
@@ -23,13 +24,13 @@ export default function Home() {
           <div className="programs-grid">
             {donationPrograms.map((program) => (
               <div key={program.id} className="program-card">
-                <Image
-                  src={program.image}
-                  alt={program.title}
-                  width={500}
-                  height={300}
-                  className="program-image"
-                />
+                <div className="program-image-wrapper">
+                  <img
+                    src={program.image}
+                    alt={program.title}
+                    className="program-image"
+                  />
+                </div>
                 <div className="program-content">
                   <h3 className="program-title">{program.title}</h3>
                   <p className="program-description">{program.shortDescription}</p>
@@ -49,6 +50,26 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="trusted-section">
+        <div className="container">
+          <h2 className="trusted-title">Trusted by those you trust</h2>
+          <div className="trusted-image-container">
+            <Image
+              src="/people.png"
+              alt="Trusted by those you trust"
+              width={800}
+              height={400}
+              style={{ 
+                width: '100%', 
+                height: 'auto',
+                objectFit: 'cover',
+                borderRadius: '12px'
+              }}
+            />
           </div>
         </div>
       </section>

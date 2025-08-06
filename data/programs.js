@@ -2,193 +2,178 @@
 export const donationPrograms = [
   {
     id: 1,
-    slug: 'clean-water-africa',
-    title: 'Clean Water for Rural Africa',
-    shortDescription: 'Providing access to clean, safe drinking water for communities in rural Africa.',
-    fullDescription: `Access to clean water is a fundamental human right, yet millions of people in rural Africa still lack this basic necessity. Our Clean Water for Rural Africa program works directly with local communities to build sustainable water infrastructure including wells, pumps, and filtration systems.
+    slug: 'a-fathers-plea-from-gaza-help-us-survive-this-war',
+    title: 'A Father’s Plea From Gaza: Help Us Survive This War',
+    shortDescription: 'The cost of living is now unbearable. A single bag of flour costs nearly $300 — something we used to buy for a fraction of that. ',
+    fullDescription: `
+    Hello, my name is Abed, and I’m from Gaza.
 
-    Each water project serves an average of 500 people and includes:
-    • Deep water well construction with solar-powered pumps
-    • Community training on maintenance and hygiene
-    • Water quality testing and monitoring
-    • Hygiene education programs for children and families
+    I’m a husband and a father to a young son. Like many families here, our lives have been devastated by the crisis. I lost my job due to the conflict and have been displaced multiple times. We are currently struggling just to afford the basics — even simple things like bread, vegetables, and clean water have become luxuries.
 
-    Your donation directly funds these life-changing projects. $50 provides clean water for one person for an entire year. $5,000 funds a complete well project for a community.
+    The cost of living is now unbearable. A single bag of flour costs nearly $300 — something we used to buy for a fraction of that. Most vegetables are sold at prices far beyond what any ordinary person can afford. My wife and I do everything we can to provide for our son, but the reality is harsh: without outside help, survival is becoming impossible.
 
-    Join us in making clean water accessible to all. Every drop counts, and every donation makes a difference in someone's life.`,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 25000,
-    raisedAmount: 18500
+    This campaign is not for anything extra — it’s to help cover daily life essentials:
+
+    Food and clean water
+    Basic hygiene items
+    Rent or temporary shelter
+    Anything that helps keep my child safe and fed
+
+    We live with constant uncertainty, but your support can give us a little relief and a sense of hope. Whether it’s a donation or simply sharing this campaign, every act of kindness counts.
+
+    Thank you for reading, and thank you for standing with us.
+
+    With all my heart,
+    Abed and the entire family`,
+    image: 'https://images.gofundme.com/frcJnqz-tFntYx8MVDtwGi2gGQ4=/720x405/https://d2g8igdw686xgo.cloudfront.net/92068185_1750686493507779_r.png',
+    donationUrl: 'https://www.gofundme.com/f/a-fathers-plea-from-gza-help-us-survive-this-war',
+    targetAmount: 20000,
+    raisedAmount: 14305
   },
   {
     id: 2,
-    slug: 'education-for-all',
-    title: 'Education for All Children',
-    shortDescription: 'Supporting quality education and school supplies for underprivileged children worldwide.',
-    fullDescription: `Education is the key to breaking the cycle of poverty. Our Education for All Children program ensures that every child, regardless of their background, has access to quality education and the tools they need to succeed.
+    slug: 'cry-of-the-sole-survivor',
+    title: 'Cry of the Sole Survivor – A Father Who Lost Everything',
+    shortDescription: 'This fundraiser will help a grieving father, the sole survivor of his family, rebuild his life after losing his wife, children, and home under the rubble.',
+    fullDescription: `
+      Cry of the Sole Survivor – A Father Who Lost His Entire Family and Everything Under the Rubble
 
-    Our comprehensive approach includes:
-    • School construction and renovation projects
-    • Teacher training and development programs
-    • Educational materials and technology
-    • Scholarship programs for higher education
-    • After-school tutoring and mentorship
+     This fundraiser will help a grieving father, the sole survivor of his family, rebuild his life after losing his wife, children, and home under the rubble.
 
-    We currently support over 2,000 students across 15 countries. Our programs have achieved a 95% graduation rate and 80% of our scholarship recipients go on to higher education.
+     "Shadow of Hope Under the Rubble" –Mohammed AlSalool, Gaza
+     The Innocent Dream
 
-    Your contribution helps us expand our reach and impact:
-    • $25 provides school supplies for one child for a year
-    • $100 sponsors a child's education for one month
-    • $1,200 sponsors a child's complete primary education
+      In those days when life was simpler, my heart was full of peace. I lived with my small family in our modest home in Gaza, where Hamza, the eldest son, was eight years old and dreamed of new toys and schools to attend. My middle son, Musab, who was only six, used to chase his older brother around, laughing and playing together. And then there was Meshal, our youngest, who was just six months old, filling our home with his innocent laughter that calmed his mother’s heart, despite the cruelty of war. I lived with them, working in bird-keeping, which was not just a job, but a symbol of hope and comfort in a world filled with challenges.
 
-    Together, we can ensure that every child has the opportunity to learn, grow, and achieve their dreams.`,
-    image: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 50000,
-    raisedAmount: 32000
+        A Father’s Care for the Birds ️
+
+      I always believed that the birds were a symbol of life. I cared for them as if they were my children, seeing them as a source of peace for a broken heart in a time filled with pain. The birds were my small escape from the harsh reality we faced. I lived to see them fly freely, reminding me that there’s always hope for life, despite the destruction.
+
+
+
+      Mohammed raises and cares for birds during the war of extermination in the Gaza Strip.
+
+
+
+
+Mohammed's children playing and taking care of each other.
+
+The Moment of Fate ⚡
+
+Then came that day, the one I’ll never forget. The first sound of the bombing was enough to rip everything from our lives. Our house was destroyed, and everything we held dear turned into rubble. In that moment, I knew I had lost everything… my home, my family, my dreams. There was nothing left but the rubble beneath my feet and the tears that washed my face.
+
+https://www.youtube.com/watch?v=jjrixDCeass
+https://www.youtube.com/watch?v=SRmFakn7lwE
+
+Losing My Loved Ones
+
+In the midst of the bombing, Hamza, my eldest son, was martyred instantly. I saw the dream in his eyes, and in a single moment, that dream became nothing but a memory. Musab, my middle child, followed him an hour later after the medical efforts. We tried to save him, but his small body couldn't endure. As for Meshal, my tiny six-month-old, he reached the hospital in critical condition, and the medics tried with all their might to save him, but even his tiny heart couldn't handle the strain. They all left us in an instant. Everything stopped.
+
+
+
+
+
+https://www.instagram.com/reel/DKXD4BMC4eN/?hl=ar
+
+The Final Farewell
+
+That scene in the hospital is one I can never forget. The hands that tried so hard to bring Meshal back to life trembled, and I stood helpless, unable to do anything but watch. I had nothing but tears, but those tears were of no use. Meshal, despite all our attempts, left us, and I lost everything. Everything ended in a single moment.
+Amid the Rubble ️
+
+Today, I am alone, surrounded by the rubble of the life I once had. I’ve lost my wife, my children, and everything that gave me strength to live. Now, I live in a world that only holds destruction. But despite the deep pain, I won’t give up. I will continue to search for hope, even if it’s in the smallest things. I want to start again, but I can't do it alone.
+
+Hope Amidst Destruction
+
+Today, after everything I’ve been through, I’ve realized that life doesn’t stop. Yes, I’ve lost everything, but I can’t live in this sorrow forever. I want to start again. I want to raise birds once more because they are the hope I see in front of me. I want to live again, and I want to have a life, but I can’t do it alone. I need your help; I need your hands to reach out to me and give me a chance for a new beginning.
+
+Call for Hope and Humanity
+Today, I need your help, not just because I’ve lost everything, but because I want to live again, I want to start fresh. Gaza, which has given so much through its sacrifices, is in need of our support now. I need help to rebuild my life and start over.
+If you have the ability to donate, to help, to offer hope to someone like me, I ask you with all my pain and sincerity to reach out and assist me.
+Every contribution, no matter how small, will make a difference in my life. I need:
+• Financial support to cover my basic needs, such as shelter and food.
+• Help to restore my bird-keeping business, which is what I live for, and I want to start again.
+• Assistance in securing a safe shelter for myself, as I am now homeless.
+• Psychological support to help me get through the deep trauma I’m living with.
+
+I want to live and build a new life, but I need you. Every donation, every word of support, every act of kindness will be the hope that brings me back to life. Thank you from the depths of my heart for everything you can offer.
+    
+    `,
+    image: 'https://images.gofundme.com/ceGo1wZMVGe-yynM4WXfRL28NG0=/720x405/https://d2g8igdw686xgo.cloudfront.net/93006673_1753965662751546_r.png',
+    donationUrl: 'https://www.gofundme.com/f/cry-of-the-sole-survivor-a-father-who-lost-everything',
+    targetAmount: 30000,
+    raisedAmount: 1321
   },
+
+
   {
     id: 3,
-    slug: 'emergency-relief-fund',
-    title: 'Emergency Relief Fund',
-    shortDescription: 'Rapid response aid for communities affected by natural disasters and emergencies.',
-    fullDescription: `When disasters strike, immediate action saves lives. Our Emergency Relief Fund provides rapid response aid to communities affected by natural disasters, conflicts, and other emergencies around the world.
+    slug: 'help-my-family',
+    title: 'Help My Family from Gaza Find Hope',
+    shortDescription: 'Our lives have been shattered—not just by the loss of our home, but by the very erosion of the security we once knew Every day, we grapple with the grim realities of displacement and constant danger.',
+    fullDescription: `Dear world,
 
-    Our emergency response includes:
-    • Emergency food and clean water distribution
-    • Temporary shelter and housing assistance
-    • Medical aid and healthcare services
-    • Emergency supplies and essential items
-    • Long-term recovery and rebuilding support
+Hello, my name is Reem. I’m a Palestinian from Gaza, and I’m doing everything I can to get my family to safety.
 
-    We maintain strategic partnerships with local organizations worldwide, enabling us to respond within 48 hours of any emergency. Our experienced team has provided aid in over 50 emergency situations across 30 countries.
+My family includes:
+• Kamal (my dad), 62 years old
+• Summer (my mom), 51 years old
+• Sahar, 24 years old
+• Malak, 21 years old
+• Mohammed, 8 years old
 
-    Recent deployments include:
-    • Earthquake relief in Turkey and Syria
-    • Flood response in Pakistan
-    • Hurricane recovery in the Caribbean
-    • Wildfire assistance in Australia
+With a heart burdened by loss and pain, I reach out in desperate hope amid the unimaginable hardships we face in Gaza.
+Our lives have been shattered—not just by the loss of our home, but by the very erosion of the security we once knew.
+Every day, we grapple with the grim realities of displacement and constant danger.
+My once cherished home, a sanctuary of warmth and safety, now lies in ruins under relentless destruction.
+The bitter cold of winter and ceaseless rains have made our struggle even more unbearable, pushing us further into despair. Basic necessities—food, clean water, and the simplest forms of shelter—have become distant dreams, out of reach in a world turned hostile.
+My father, a man who has long battled high blood pressure and diabetes, and my beloved mother, whose frail health continues to deteriorate, now stand as symbols of our relentless suffering.
 
-    Your donation to our Emergency Relief Fund helps us:
-    • Maintain emergency supply stockpiles
-    • Deploy rapid response teams
-    • Provide immediate life-saving aid
-    • Support long-term community recovery
+Without access to proper medical care or essential medicines, their fragile health hangs by a thread, echoing the collective pain of those who have lost everything. In these dire moments, I implore you to consider extending a lifeline.
+Your generous support—whether through a donation or by simply sharing our story—has the power to bring us a glimmer of hope in this abyss of despair.
+Every dollar raised through this campaign will go directly toward helping my displaced family in Gaza survive the harsh and deteriorating conditions they are facing. The funds will be used to secure essential needs such as food, clean water, medicine, and temporary shelter.
+In addition, we will prioritize critical health support for my parents, whose medical conditions require constant attention and access to treatment.
+Every contribution will be handled with transparency and care, ensuring that your support provides real, immediate relief—bringing us one step closer to safety, stability, and the hope of rebuilding what was lost. Your compassion, no matter how modest, is not just charity—it is a beacon of hope and a testament to our shared humanity.
+In this battle for survival, every act of kindness brings us closer to reclaiming a sense of normalcy and hope for a better future.
+Thank you for taking the time to listen to our plight and for considering any help you can provide during this darkest of times.
 
-    $50 provides emergency supplies for one family for a week. $500 funds emergency shelter for a displaced family.`,
-    image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 100000,
-    raisedAmount: 67500
+
+
+
+
+From the bottom of my heart, thank you for standing with us in this time of urgent need. Your support truly means everything.Dear world,
+
+Hello, my name is Reem. I’m a Palestinian from Gaza, and I’m doing everything I can to get my family to safety.
+
+My family includes:
+• Kamal (my dad), 62 years old
+• Summer (my mom), 51 years old
+• Sahar, 24 years old
+• Malak, 21 years old
+• Mohammed, 8 years old
+
+With a heart burdened by loss and pain, I reach out in desperate hope amid the unimaginable hardships we face in Gaza.
+Our lives have been shattered—not just by the loss of our home, but by the very erosion of the security we once knew.
+Every day, we grapple with the grim realities of displacement and constant danger.
+My once cherished home, a sanctuary of warmth and safety, now lies in ruins under relentless destruction.
+The bitter cold of winter and ceaseless rains have made our struggle even more unbearable, pushing us further into despair. Basic necessities—food, clean water, and the simplest forms of shelter—have become distant dreams, out of reach in a world turned hostile.
+My father, a man who has long battled high blood pressure and diabetes, and my beloved mother, whose frail health continues to deteriorate, now stand as symbols of our relentless suffering.
+
+Without access to proper medical care or essential medicines, their fragile health hangs by a thread, echoing the collective pain of those who have lost everything. In these dire moments, I implore you to consider extending a lifeline.
+Your generous support—whether through a donation or by simply sharing our story—has the power to bring us a glimmer of hope in this abyss of despair.
+Every dollar raised through this campaign will go directly toward helping my displaced family in Gaza survive the harsh and deteriorating conditions they are facing. The funds will be used to secure essential needs such as food, clean water, medicine, and temporary shelter.
+In addition, we will prioritize critical health support for my parents, whose medical conditions require constant attention and access to treatment.
+Every contribution will be handled with transparency and care, ensuring that your support provides real, immediate relief—bringing us one step closer to safety, stability, and the hope of rebuilding what was lost. Your compassion, no matter how modest, is not just charity—it is a beacon of hope and a testament to our shared humanity.
+In this battle for survival, every act of kindness brings us closer to reclaiming a sense of normalcy and hope for a better future.
+Thank you for taking the time to listen to our plight and for considering any help you can provide during this darkest of times.
+
+
+
+
+
+From the bottom of my heart, thank you for standing with us in this time of urgent need. Your support truly means everything.`,
+    image: 'https://images.gofundme.com/rHyk7xFmh-1kxthoKwexxd10KWk=/720x405/https://d2g8igdw686xgo.cloudfront.net/93182477_1754054308542236_r.png',
+    donationUrl: 'https://www.gofundme.com/f/help-a-family-of-5-from-gaza-find-hope',
+    targetAmount: 50000,
+    raisedAmount: 481
   },
-  {
-    id: 4,
-    slug: 'healthcare-access',
-    title: 'Healthcare Access Initiative',
-    shortDescription: 'Bringing essential medical care and health services to underserved communities.',
-    fullDescription: `Healthcare is a basic human right, yet millions of people worldwide lack access to essential medical care. Our Healthcare Access Initiative works to bridge this gap by bringing quality healthcare services to underserved communities.
-
-    Our comprehensive healthcare programs include:
-    • Mobile medical clinics for remote areas
-    • Community health worker training
-    • Maternal and child health programs
-    • Vaccination and disease prevention campaigns
-    • Mental health and counseling services
-    • Medical equipment and supply donations
-
-    We operate in partnership with local healthcare providers and train community health workers to ensure sustainable, long-term impact. Our programs have:
-    • Provided care to over 50,000 patients annually
-    • Trained 500+ community health workers
-    • Established 25 permanent health clinics
-    • Achieved 90% vaccination coverage in target areas
-
-    Your support helps us expand our reach:
-    • $30 provides basic medical care for one person
-    • $150 funds a community health worker for one month
-    • $2,500 equips a mobile medical clinic
-
-    Join us in making healthcare accessible to all. Your donation saves lives and builds healthier communities.`,
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 75000,
-    raisedAmount: 45000
-  },
-  {
-    id: 5,
-    slug: 'food-security-program',  
-    title: 'Global Food Security Program',
-    shortDescription: 'Fighting hunger by providing nutritious meals and sustainable food solutions.',
-    fullDescription: `Hunger affects over 800 million people worldwide. Our Global Food Security Program tackles this crisis through immediate food assistance and long-term sustainable solutions that help communities become food secure.
-
-    Our multi-faceted approach includes:
-    • Emergency food distribution in crisis areas
-    • School feeding programs for children
-    • Agricultural training and seed distribution
-    • Community gardens and farming cooperatives
-    • Nutrition education and cooking classes
-    • Food preservation and storage solutions
-
-    We work directly with local farmers and communities to create sustainable food systems. Our programs have:
-    • Provided over 2 million meals to hungry families
-    • Established 100+ community gardens
-    • Trained 1,000+ farmers in sustainable agriculture
-    • Reduced child malnutrition by 60% in target areas
-
-    Success stories from our programs:
-    • Maria's village in Guatemala now grows enough food to be self-sufficient
-    • Our school feeding program increased attendance by 40%
-    • Farmer cooperatives have doubled crop yields using our techniques
-
-    Your donation creates lasting change:
-    • $15 provides nutritious meals for one child for a month
-    • $75 funds a family's emergency food supplies
-    • $300 establishes a community garden
-
-    Together, we can create a world where no one goes hungry.`,
-    image: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 60000,
-    raisedAmount: 41000
-  },
-  {
-    id: 6,
-    slug: 'sustainable-energy',
-    title: 'Sustainable Energy Solutions',
-    shortDescription: 'Bringing clean, renewable energy to communities without reliable electricity access.',
-    fullDescription: `Over 700 million people worldwide still lack access to electricity. Our Sustainable Energy Solutions program brings clean, renewable energy to remote and underserved communities, improving lives while protecting the environment.
-
-    Our renewable energy projects include:
-    • Solar panel installations for homes and schools
-    • Wind power systems for rural communities
-    • Micro-hydroelectric projects
-    • Energy-efficient cookstoves
-    • Battery storage systems
-    • Technical training for local maintenance
-
-    We prioritize sustainable solutions that can be maintained by local communities. Our certified technicians train local residents to install, maintain, and repair renewable energy systems, creating local jobs and ensuring long-term sustainability.
-
-    Impact of our programs:
-    • 15,000+ people now have access to clean electricity
-    • 50+ schools powered with solar energy
-    • 200+ families using clean cookstoves, reducing indoor air pollution
-    • 75% reduction in energy costs for participating communities
-    • 30+ local technicians trained and employed
-
-    Environmental benefits:
-    • 500 tons of CO2 emissions prevented annually
-    • Reduced deforestation from traditional fuel use
-    • Improved air quality in target communities
-
-    Your investment in clean energy:
-    • $100 provides solar lighting for one home
-    • $500 funds clean cookstoves for five families
-    • $2,000 brings solar power to an entire school
-
-    Help us light up the world with clean, sustainable energy.`,
-    image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=500&h=300&fit=crop',
-    donationUrl: 'https://gofundme.com',
-    targetAmount: 40000,
-    raisedAmount: 28000
-  }
 ];

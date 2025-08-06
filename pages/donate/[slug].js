@@ -36,13 +36,26 @@ export default function ProgramDetail({ program }) {
       <section className="detail-content">
         <div className="container">
           <div style={{textAlign: 'center', marginBottom: '3rem'}}>
-            <Image
-              src={program.image}
-              alt={program.title}
-              width={800}
-              height={400}
-              style={{borderRadius: '12px', boxShadow: '0 8px 30px rgba(0,0,0,0.15)'}}
-            />
+            <div className="detail-image-wrapper" style={{ 
+              maxWidth: '800px', 
+              margin: '0 auto',
+              height: '400px',
+              overflow: 'hidden',
+              borderRadius: '12px',
+              boxShadow: '0 8px 30px rgba(0,0,0,0.15)'
+            }}>
+              <img
+                src={program.image}
+                alt={program.title}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  display: 'block'
+                }}
+              />
+            </div>
           </div>
 
           <div className="progress-section">
