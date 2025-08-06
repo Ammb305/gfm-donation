@@ -12,7 +12,7 @@ export default function Home() {
           <h1>Verify Before You Donate, Supporting Gaza Starts with Trust.</h1>
           <p>Empowering donors with verified information about Gaza fundraising campaigns. 
             We investigate, verify, and help you give with confidence.</p>
-          <Link href="#programs" className="btn btn-primary btn-large">
+          <Link href="#programs" className="btn btn-primary btn-large" style={{color: 'white'}}>
             Browse Verified Campaigns
           </Link>
         </div>

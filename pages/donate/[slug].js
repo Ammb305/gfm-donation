@@ -121,6 +121,30 @@ export default function ProgramDetail({ program }) {
   </div>
 </div>
 
+          <div className="donate-section" style={{ marginTop: '2rem', textAlign: 'center' }}>
+            <a
+              href={program.donationUrl}
+              target="gofundme.com"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-large"
+              style={{ 
+                fontSize: '1.2rem', 
+                padding: '1rem 3rem', 
+                borderRadius: '25px', 
+                color: '#c8eb8e',
+                width: '100%',
+                maxWidth: '700px',
+                display: 'block',
+                margin: '0 auto'
+              }}
+            >
+              Donate Now
+            </a>
+            <p style={{ marginTop: '1rem', color: '#666', marginBottom: '2rem' }}>
+              Donate safely – this campaign is verified and supported by our team. Your contribution goes directly to the communities in need.
+            </p>
+          </div>
+
           <div className="detail-body">
             {program.fullDescription.split('\n\n').map((paragraph, index) => (
               <div key={index}>
@@ -135,22 +159,6 @@ export default function ProgramDetail({ program }) {
                 )}
               </div>
             ))}
-          </div>
-
-
-          <div className="donate-section" style={{ marginTop: '3rem', textAlign: 'center' }}>
-            <a
-              href={program.donationUrl}
-              target="gofundme.com"
-              rel="noopener noreferrer"
-              className="btn btn-primary btn-large"
-              style={{ fontSize: '1.2rem', padding: '1rem 3rem' }}
-            >
-              Donate Now - Make a Difference
-            </a>
-            <p style={{ marginTop: '1rem', color: '#666' }}>
-              Donate safely – this campaign is verified and supported by our team. Your contribution goes directly to the communities in need.
-            </p>
           </div>
         </div>
       </section>
