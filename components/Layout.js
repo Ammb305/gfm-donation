@@ -124,8 +124,8 @@ export default function Layout({ children, title = "Hope Foundation - Making a D
             </div>
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>Email: info@hopefoundation.org</p>
-              <p>Phone: +1 (000) 123-4567</p>
+              <p>Email: contact@hopefoundatione.org</p>
+              <p>Telegram: +13466811469 , +17164767310</p>
             </div>
           </div>
           <div className="footer-bottom">
