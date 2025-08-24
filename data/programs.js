@@ -2,8 +2,8 @@
 export const donationPrograms = [
   {
     id: 1,
-    slug: 'a-fathers-plea-from-gaza-help-us-survive-this-war',
-    title: 'A Father’s Plea From Gaza: Help Us Survive This War',
+    slug: 'help-my-family-survive-the-famine',
+    title: 'Help My Family Survive The Famine',
     shortDescription: 'The cost of living is now unbearable. A single bag of flour costs nearly $300 — something we used to buy for a fraction of that. ',
     fullDescription: `
     Hello, my name is Abed, and I’m from Gaza.
@@ -26,9 +26,9 @@ export const donationPrograms = [
     With all my heart,
     Abed and the entire family`,
     image: 'https://images.gofundme.com/frcJnqz-tFntYx8MVDtwGi2gGQ4=/720x405/https://d2g8igdw686xgo.cloudfront.net/92068185_1750686493507779_r.png',
-    donationUrl: 'https://www.gofundme.com/f/a-fathers-plea-from-gza-help-us-survive-this-war',
-    targetAmount: 20000,
-    raisedAmount: 14305
+    donationUrl: 'https://www.gofundme.com/f/help-my-brothers-family-survive-the-famine',
+    targetAmount: 2600,
+    raisedAmount: 0
   },
   {
     id: 2,
